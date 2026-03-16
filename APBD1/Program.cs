@@ -1,7 +1,7 @@
 ﻿Console.WriteLine("Hello, World!");
 int[] arr = new [] { 1, 2, 3, 4, 5 };
 
-int ArraySumming(int[] arr)
+int SumArr(int[] arr)
 {
     int sum = 0;
     for(int i = 0; i < arr.Length; i++)
@@ -12,7 +12,7 @@ int ArraySumming(int[] arr)
     return sum;
 }
 
-Console.WriteLine("Sum equals " + ArraySumming(arr));
+Console.WriteLine("Sum equals " + SumArr(arr));
 
 int CalculateAverage(int[] values)
 {
