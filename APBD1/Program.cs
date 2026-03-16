@@ -13,3 +13,8 @@ int ArrSum(int[] arr)
 }
 
 Console.WriteLine("Sum equals " + ArrSum(arr));
+
+int CalculateAverage(int[] values)
+{
+    return  values.Sum() / values.Length;
+}
