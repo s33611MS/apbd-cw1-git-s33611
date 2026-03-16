@@ -1,6 +1,12 @@
 ﻿Console.WriteLine("Hello, World!");
 
-void fun()
+void fun(int[] arr)
 {
-    Console.WriteLine("This is fun!");
+    foreach (var v in arr)
+    {
+        Console.WriteLine(v);
+    }
 }
+
+int[] arr = new [] { 1, 2, 3, 4, 5 };
+fun(arr);
