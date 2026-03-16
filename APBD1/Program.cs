@@ -18,3 +18,8 @@ int CalculateAverage(int[] values)
 {
     return  values.Sum() / values.Length;
 }
+
+int CalculateMax(int[] values)
+{
+    return values.Max();
+}
